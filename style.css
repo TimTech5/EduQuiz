@@ -543,6 +543,87 @@ border-color:#36361e ;
     .quiz-box h1 {
         font-size: 28px;
     }
+    .quiz-container{
+       
+        left:-100%;
+       
+        }
+
+        .home{
+            position: relative;
+            left:-50%;
+            display: flex;
+            width:100%;
+            justify-content: center;
+            align-items: center;
+          
+        
+        }
+        .main{
+            min-height: 100vh;
+            background: url("Images/backgroundImg4.jpg") no-repeat;
+            background-position: center;
+            background-size: cover;
+            pointer-events: auto;
+            transition: 0.3s ease; 
+            
+        }
+        .information-popup{
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%) scale(.9);
+            width:300px;
+            background: #fff;
+            border-radius: 6px;
+            padding:10px 25px;
+            opacity:0;
+            pointer-events: none;
+            transition: 0.3s ease;
+        }
+        .information-popup h2{
+            font-size: 32px;
+            color:#7b782a;
+            }
+            
+            .information-popup .info{
+                display:inline-block;
+                font-size: 14px;
+                color:#333;
+                font-weight: 500;
+                margin:4px 0;
+            }
+            
+            .information-popup .button-container{
+            
+                margin-top: 10px;
+                padding: 15px 0 7px;
+            }
+            
+            .information-popup .button-container .information-btn{
+                width: 100px;
+                height: 40px;
+               
+                font-size: 14px;
+              
+            }
+            .quiz-container .quiz-box{
+                position: relative;
+                width: 350px;
+                padding:20px 20px;
+               
+            }
+            .quiz-box .quiz-header{
+                display: flex;
+                justify-content:space-between;
+                align-items: center;
+                padding:20px 0;
+                border-bottom: 2px solid #7b782a;
+                margin-bottom: 30px;
+                font-size: 14px;
+            
+            }
+             
 }
 
 /* For very small mobile phones */
@@ -586,11 +667,216 @@ border-color:#36361e ;
     .quiz-box h1 {
         font-size: 24px;
     }
+    .quiz-container{
+       
+        left:-100%;
+       
+        }
+
+        .home{
+            position: relative;
+            left:-50%;
+            display: flex;
+            width:100%;
+            justify-content: center;
+            align-items: center;
+          
+        
+        }
+        .main{
+            min-height: 100vh;
+            background: url("Images/backgroundImg4.jpg") no-repeat;
+            background-position: center;
+            background-size: cover;
+            pointer-events: auto;
+            transition: 0.3s ease; 
+            
+        }
+        .information-popup{
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%) scale(.9);
+            width:300px;
+            background: #fff;
+            border-radius: 6px;
+            padding:10px 25px;
+            opacity:0;
+            pointer-events: none;
+            transition: 0.3s ease;
+        }
+        .information-popup h2{
+            font-size: 32px;
+            color:#7b782a;
+            }
+            
+            .information-popup .info{
+                display:inline-block;
+                font-size: 14px;
+                color:#333;
+                font-weight: 500;
+                margin:4px 0;
+            }
+            
+            .information-popup .button-container{
+            
+                margin-top: 10px;
+                padding: 15px 0 7px;
+            }
+            
+            .information-popup .button-container .information-btn{
+                width: 100px;
+                height: 40px;
+               
+                font-size: 14px;
+              
+            }
+            .quiz-container .quiz-box{
+                position: relative;
+                width: 350px;
+                padding:20px 20px;
+               
+            }
+            .quiz-box .quiz-header{
+                display: flex;
+                justify-content:space-between;
+                align-items: center;
+                padding:20px 0;
+                border-bottom: 2px solid #7b782a;
+                margin-bottom: 30px;
+                font-size: 14px;
+            
+            }
+             
 }
 
 
 /* For very small mobile phones */
 @media (max-width: 400px) {
+    .header {
+        padding: 10px 2%;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .navbar a {
+       display: none;
+    }
+    
+
+    .home-content h1 {
+        font-size: 35px;
+    }
+
+    .home-content p {
+        font-size: 12px;
+    }
+
+    .home-content .start-btn {
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .quiz-box {
+        width: 280px;
+        padding: 10px 15px;
+    }
+
+    .result-container {
+        width: 280px;
+    }
+
+    .quiz-box h1 {
+        font-size: 24px;
+    }
+    .quiz-container{
+       
+        left:-100%;
+       
+        }
+
+        .home{
+            position: relative;
+            left:-50%;
+            display: flex;
+            width:100%;
+            justify-content: center;
+            align-items: center;
+          
+        
+        }
+        .main{
+            min-height: 100vh;
+            background: url("Images/backgroundImg4.jpg") no-repeat;
+            background-position: center;
+            background-size: cover;
+            pointer-events: auto;
+            transition: 0.3s ease; 
+            
+        }
+        .information-popup{
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%) scale(.9);
+            width:300px;
+            background: #fff;
+            border-radius: 6px;
+            padding:10px 25px;
+            opacity:0;
+            pointer-events: none;
+            transition: 0.3s ease;
+        }
+        .information-popup h2{
+            font-size: 32px;
+            color:#7b782a;
+            }
+            
+            .information-popup .info{
+                display:inline-block;
+                font-size: 14px;
+                color:#333;
+                font-weight: 500;
+                margin:4px 0;
+            }
+            
+            .information-popup .button-container{
+            
+                margin-top: 10px;
+                padding: 15px 0 7px;
+            }
+            
+            .information-popup .button-container .information-btn{
+                width: 100px;
+                height: 40px;
+               
+                font-size: 14px;
+              
+            }
+            .quiz-container .quiz-box{
+                position: relative;
+                width: 350px;
+                padding:20px 20px;
+               
+            }
+            .quiz-box .quiz-header{
+                display: flex;
+                justify-content:space-between;
+                align-items: center;
+                padding:20px 0;
+                border-bottom: 2px solid #7b782a;
+                margin-bottom: 30px;
+                font-size: 14px;
+            
+            }
+             
+}
+
+/* For very small mobile phones */
+@media (max-width: 300px) {
     .header {
         padding: 10px 2%;
     }
