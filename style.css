@@ -513,8 +513,7 @@ border-color:#36361e ;
     }
 
     .navbar a {
-        font-size: 16px;
-        margin-left: 15px;
+        display: none;
     }
 
     .home-content h1 {
@@ -637,8 +636,7 @@ border-color:#36361e ;
     }
 
     .navbar a {
-        font-size: 14px;
-        margin-left: 10px;
+        display: none;
     }
 
     .home-content h1 {
