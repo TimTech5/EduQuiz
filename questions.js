@@ -262,9 +262,9 @@ let questions = [
         "question": "What is a spreadsheet in Excel?",
         "answer": "A collection of rows and columns to organize and analyze data.",
         "options": [
-            "A collection of rows and columns to organize and analyze data.",
-            "A tool for creating visual presentations.",
             "A system for managing emails.",
+            "A tool for creating visual presentations.",
+            "A collection of rows and columns to organize and analyze data.",
             "None of the above"
         ]
     },
@@ -273,9 +273,9 @@ let questions = [
         "question": "What symbol is used to start a formula in Excel?",
         "answer": "=",
         "options": [
-            "=",
             "+",
             "-",
+            "=",
             "*"
         ]
     },
@@ -284,9 +284,9 @@ let questions = [
         "question": "How do you merge cells in Excel?",
         "answer": "By selecting the cells and clicking the 'Merge & Center' button.",
         "options": [
-            "By selecting the cells and clicking the 'Merge & Center' button.",
             "By dragging the cells together.",
             "By selecting cells and clicking 'Insert'.",
+            "By selecting the cells and clicking the 'Merge & Center' button.",
             "None of the above"
         ]
     },
@@ -295,8 +295,8 @@ let questions = [
         "question": "Which function is used to find the sum of a range of cells?",
         "answer": "SUM",
         "options": [
-            "SUM",
             "ADD",
+            "SUM",
             "TOTAL",
             "COUNT"
         ]
@@ -306,10 +306,10 @@ let questions = [
         "question": "What is the default file extension for an Excel workbook?",
         "answer": ".xlsx",
         "options": [
-            ".xlsx",
             ".xls",
             ".docx",
-            ".csv"
+            ".csv",
+            ".xlsx"
         ]
     },
     {
@@ -328,8 +328,8 @@ let questions = [
         "question": "What is the shortcut for copying selected cells in Excel?",
         "answer": "Ctrl + C",
         "options": [
-            "Ctrl + C",
             "Ctrl + X",
+            "Ctrl + C",
             "Ctrl + V",
             "Alt + C"
         ]
@@ -350,9 +350,9 @@ let questions = [
         "question": "What is the shortcut to save a workbook in Excel?",
         "answer": "Ctrl + S",
         "options": [
-            "Ctrl + S",
             "Ctrl + P",
             "Ctrl + F",
+            "Ctrl + S",
             "Alt + S"
         ]
     },
@@ -361,8 +361,8 @@ let questions = [
         "question": "How can you freeze the top row in Excel?",
         "answer": "By going to 'View' > 'Freeze Panes' > 'Freeze Top Row'.",
         "options": [
-            "By going to 'View' > 'Freeze Panes' > 'Freeze Top Row'.",
             "By selecting the row and clicking 'Lock'.",
+            "By going to 'View' > 'Freeze Panes' > 'Freeze Top Row'.",
             "By right-clicking the row and choosing 'Freeze'.",
             "None of the above"
         ]
@@ -372,10 +372,10 @@ let questions = [
             "question": "What is the keyboard shortcut to undo an action in Excel?",
             "answer": "Ctrl + Z",
             "options": [
-                "Ctrl + Z",
                 "Ctrl + Y",
+                "Alt + Z",
                 "Ctrl + U",
-                "Alt + Z"
+                "Ctrl + Z"
             ]
         },
         {
@@ -383,9 +383,9 @@ let questions = [
             "question": "Which function in Excel is used to count the number of cells that contain numbers?",
             "answer": "COUNT",
             "options": [
-                "COUNT",
                 "COUNTA",
                 "SUM",
+                "COUNT",
                 "AVERAGE"
             ]
         },
@@ -394,9 +394,9 @@ let questions = [
             "question": "How do you apply a filter to a range of data in Excel?",
             "answer": "By selecting the data and clicking 'Data' > 'Filter'.",
             "options": [
-                "By selecting the data and clicking 'Data' > 'Filter'.",
                 "By right-clicking the data and selecting 'Apply Filter'.",
                 "By clicking 'Home' > 'Filter'.",
+                "By selecting the data and clicking 'Data' > 'Filter'.",
                 "None of the above"
             ]
         },
@@ -405,8 +405,8 @@ let questions = [
             "question": "What is the purpose of the IF function in Excel?",
             "answer": "It checks whether a condition is met and returns one value if true and another if false.",
             "options": [
-                "It checks whether a condition is met and returns one value if true and another if false.",
                 "It calculates the total of two values.",
+                "It checks whether a condition is met and returns one value if true and another if false.",
                 "It merges data from two different cells.",
                 "None of the above"
             ]
@@ -438,8 +438,8 @@ let questions = [
             "question": "What does the CONCATENATE function do in Excel?",
             "answer": "It joins two or more text strings into one string.",
             "options": [
-                "It joins two or more text strings into one string.",
                 "It adds two numbers.",
+                "It joins two or more text strings into one string.",
                 "It finds the average of values.",
                 "It checks for errors in a formula."
             ]
@@ -449,9 +449,9 @@ let questions = [
             "question": "What is the function of a PivotTable in Excel?",
             "answer": "It summarizes large amounts of data in a table format.",
             "options": [
-                "It summarizes large amounts of data in a table format.",
                 "It creates a visual representation of data.",
                 "It sorts data alphabetically.",
+                "It summarizes large amounts of data in a table format.",
                 "None of the above"
             ]
         },
@@ -471,10 +471,10 @@ let questions = [
             "question": "Which function in Excel returns the largest value from a set of values?",
             "answer": "MAX",
             "options": [
-                "MAX",
                 "MIN",
                 "LARGE",
-                "AVERAGE"
+                "AVERAGE",
+                "MAX"
             ]
         }
     
