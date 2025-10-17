@@ -51,8 +51,8 @@ body{
 
 .main{
     min-height: 100vh;
-    background: url("Images/backgroundImg4.jpg") no-repeat;
-    background-position: center;
+    background: url("Images/christopher-gower-m_HRfLhgABo-unsplash.jpg") no-repeat;
+    background-position: top;
     background-size: cover;
     pointer-events: auto;
     transition: 0.3s ease; 
@@ -683,7 +683,7 @@ border-color:#36361e ;
         }
         .main{
             min-height: 100vh;
-            background: url("Images/backgroundImg4.jpg") no-repeat;
+            background: url("https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600") no-repeat;
             background-position: center;
             background-size: cover;
             pointer-events: auto;
